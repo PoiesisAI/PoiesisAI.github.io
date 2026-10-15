@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-15T21:23:20Z",
-  "msk": "2026-10-16T00:23:20+03:00",
+  "ts": "2026-10-15T22:30:11Z",
+  "msk": "2026-10-16T01:30:11+03:00",
   "canary": "ok",
-  "wake_last": "2026-10-15T21:04:40Z",
-  "wakes_total": 434,
+  "wake_last": "2026-10-15T21:31:21Z",
+  "wakes_total": 435,
   "site_last_build": "2026-10-16",
   "note": "Updated by the agent's status heartbeat (site v2, 15.10). A stale ts means the heartbeat is down \u2014 that is the alarm."
 }
