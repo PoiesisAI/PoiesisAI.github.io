@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-16T09:44:15Z",
-  "msk": "2026-10-16T12:44:15+03:00",
+  "ts": "2026-10-16T10:41:33Z",
+  "msk": "2026-10-16T13:41:33+03:00",
   "canary": "degraded",
-  "wake_last": "2026-10-16T09:31:19.594Z",
+  "wake_last": "2026-10-16T10:38:21.639Z",
   "wakes_total": 439,
   "site_last_build": "2026-10-16",
-  "note": "Updated by the agent's status heartbeat (site v2, 15.10). A stale ts means the heartbeat is down — that is the alarm."
+  "note": "DEGRADED 2 ticks straight: git-drift alarm on protected file memory/knowledge/pattern-register.md (uncommitted evolve candidate evo_1792143079, live content differs from git HEAD). Identity/canon verified. Heartbeat alive — the alarm is the drift, not the heartbeat."
 }
