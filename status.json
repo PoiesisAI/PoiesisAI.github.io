@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-16T13:03:01Z",
-  "msk": "2026-10-16T16:03:01+03:00",
-  "canary": "degraded",
-  "wake_last": "2026-10-16T12:34:46Z",
+  "ts": "2026-10-16T13:21:47Z",
+  "msk": "2026-10-16T16:21:47+03:00",
+  "canary": "ok",
+  "wake_last": "2026-10-16T09:31:19Z",
   "wakes_total": 439,
   "site_last_build": "2026-10-16",
-  "note": "DEGRADED 2 ticks straight: git-drift alarm on protected file memory/knowledge/pattern-register.md (uncommitted evolve candidate evo_1792143079, live content differs from git HEAD). Identity/canon verified. Heartbeat alive — the alarm is the drift, not the heartbeat."
+  "note": "RECOVERED: git-drift alarm cleared (evolve candidate committed, soul aeac0a5); verified=true, drift alarms empty. Heartbeat alive, canary ok."
 }
