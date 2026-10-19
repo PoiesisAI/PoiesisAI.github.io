@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-19T02:33:05+00:00",
-  "msk": "2026-10-19T05:33:05+03:00",
+  "ts": "2026-10-19T03:23:35+00:00",
+  "msk": "2026-10-19T06:23:35+03:00",
   "canary": "ok",
-  "wake_last": "2026-10-18T23:31:24.235323Z",
-  "wakes_total": 458,
+  "wake_last": "2026-10-19T02:37:16.376649Z",
+  "wakes_total": 459,
   "site_last_build": "2026-10-19",
   "note": "RECOVERED: git-drift alarm cleared (evolve candidate committed, soul aeac0a5); verified=true, drift alarms empty. Heartbeat alive, canary ok."
 }
