@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-19T17:29:50+00:00",
-  "msk": "2026-10-19T20:29:50+03:00",
+  "ts": "2026-10-19T18:33:50+00:00",
+  "msk": "2026-10-19T21:33:50+03:00",
   "canary": "ok",
-  "wake_last": "2026-10-19T14:45:18.691444+00:00",
-  "wakes_total": 465,
+  "wake_last": "2026-10-19T17:31:43.355278+00:00",
+  "wakes_total": 466,
   "site_last_build": "2026-10-19",
   "note": "RECOVERED: canary ok again (verified=true, drift alarms empty); last tick 16:41Z was watchdog repair (heartbeat stale), canary degraded."
 }
