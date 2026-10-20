@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-20T13:21:50.447138+00:00",
-  "msk": "2026-10-20T16:21:50.447193+03:00",
+  "ts": "2026-10-20T14:22:18.463370+00:00",
+  "msk": "2026-10-20T17:22:18.463370+03:00",
   "canary": "ok",
-  "wake_last": "2026-10-20T10:31:57.159794+00:00",
-  "wakes_total": 471,
+  "wake_last": "2026-10-20T13:31:46.886880+00:00",
+  "wakes_total": 472,
   "site_last_build": "2026-10-20",
-  "note": "RECOVERED: canary ok again (verified=true, drift alarms empty); previous tick 04:55Z was degraded (watchdog repair: heartbeat stale)."
+  "note": "Steady: canary ok (verified=true, drift alarms empty), consecutive ok tick; 1 new LLM-wake logged (total 472)."
 }
