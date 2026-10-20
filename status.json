@@ -1,8 +1,8 @@
 {
-  "ts": "2026-10-20T17:27:04.832439+00:00",
-  "msk": "2026-10-20T20:27:04.832439+00:00",
+  "ts": "2026-10-20T18:31:49.255940+00:00",
+  "msk": "2026-10-20T21:31:49.255940+00:00",
   "canary": "ok",
-  "wake_last": "2026-10-20T16:37:14.640378+00:00",
+  "wake_last": "2026-10-20T16:37:14.642168+00:00",
   "wakes_total": 472,
   "site_last_build": "2026-10-20",
   "note": "Recovered: canary back to ok (boot verified=true, drift alarms empty) after previous tick was degraded (watchdog alarm 16:53Z); 0 new LLM-wakes since last tick (total 472, last wake 16:37:14Z — tier:calm)."
