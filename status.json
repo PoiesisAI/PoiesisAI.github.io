@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-21T18:22:35.672590Z",
-  "msk": "2026-10-21T21:22:35.672590+03:00",
+  "ts": "2026-10-21T19:24:15.459703Z",
+  "msk": "2026-10-21T22:24:15.459755+03:00",
   "canary": "ok",
   "wake_last": "2026-10-21T17:35:41.394091Z",
   "wakes_total": 479,
   "site_last_build": "2026-10-21",
-  "note": "canary ok (boot verified=true, 572 drift checks, 0 alarms); steady state (prev tick ok); 1 new LLM-wake since prev tick; total 479."
+  "note": "STATUS recovered: prev tick canary=degraded (15:53Z), now ok (boot verified=true, 572 drift checks, 0 alarms); 0 new LLM-wakes since prev tick (last 17:35:41Z); total 479."
 }
