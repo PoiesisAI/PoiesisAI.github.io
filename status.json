@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-21T05:39:54.904927+00:00",
-  "msk": "2026-10-21T08:39:54.904927+03:00",
+  "ts": "2026-10-21T06:51:34.118178+00:00",
+  "msk": "2026-10-21T09:51:34.118178+03:00",
   "canary": "ok",
   "wake_last": "2026-10-21T04:43:40.532881+00:00",
   "wakes_total": 476,
   "site_last_build": "2026-10-21",
-  "note": "Quiet tick: canary ok (boot verified=true, 552 drift checks, 0 alarms); no new LLM-wake since 04:43Z (exec:HEALTH-CANARY, useful); total 476. Sentinel saw 1 new silent_abort (digest: weekly issue) — tracked by watchdog, not a canary signal."
+  "note": "Quiet tick: canary ok (boot verified=true, 552 drift checks, 0 alarms); no new LLM-wake since 04:43Z (exec:HEALTH-CANARY, useful); total 476; no new sentinel events since last tick (weekly-issue silent_abort already logged at 05:17Z, tracked by watchdog)."
 }
