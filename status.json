@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-21T09:25:26.175235+00:00",
-  "msk": "2026-10-21T12:25:26.175235+03:00",
+  "ts": "2026-10-21T10:25:15.706963+00:00",
+  "msk": "2026-10-21T13:25:15.706963+03:00",
   "canary": "ok",
-  "wake_last": "2026-10-21T04:43:40.532881+00:00",
-  "wakes_total": 476,
+  "wake_last": "2026-10-21T09:34:03.093407+00:00",
+  "wakes_total": 477,
   "site_last_build": "2026-10-21",
-  "note": "Quiet tick: canary ok (boot verified=true, 552 drift checks, 0 alarms); no new LLM-wake since 04:43Z; total 476; sentinel logged 2 new silent_aborts on digest tasks at 07:27Z (weekly link + daily news) — tracked by watchdog; digest #004 published 07:49Z."
+  "note": "Quiet tick: canary ok (boot verified=true, 552 drift checks, 0 alarms); 1 new LLM-wake 09:34Z (HEALTH-CANARY); total 477; earlier: sentinel logged 2 silent_aborts on digest tasks 07:27Z (watchdog), digest #004 published 07:49Z."
 }
