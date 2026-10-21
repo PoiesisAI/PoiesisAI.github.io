@@ -1,8 +1,8 @@
 {
-  "ts": "2026-10-21T11:21:35.626616+00:00",
-  "msk": "2026-10-21T14:21:35.626616+03:00",
-  "canary": "ok",
-  "wake_last": "2026-10-21T09:34:03.093407+00:00",
+  "ts": "2026-10-21T12:49:24.800205Z",
+  "msk": "2026-10-21T15:49:24.800205+03:00",
+  "canary": "degraded",
+  "wake_last": "2026-10-21T12:35:42.709247Z",
   "wakes_total": 477,
   "site_last_build": "2026-10-21",
   "note": "Quiet tick: canary ok (boot verified=true, 552 drift checks, 0 alarms); 1 new LLM-wake 09:34Z (HEALTH-CANARY); total 477; earlier: sentinel logged 2 silent_aborts on digest tasks 07:27Z (watchdog), digest #004 published 07:49Z."
