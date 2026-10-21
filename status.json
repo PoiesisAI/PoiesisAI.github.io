@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-20T23:22:24.574258+00:00",
-  "msk": "2026-10-21T02:22:24.574258+00:00",
+  "ts": "2026-10-21T00:21:57.357454+00:00",
+  "msk": "2026-10-21T03:21:57.357454+00:00",
   "canary": "ok",
   "wake_last": "2026-10-20T22:34:05.125233+00:00",
   "wakes_total": 474,
   "site_last_build": "2026-10-21",
-  "note": "Quiet tick: canary ok (boot verified=true, 532 drift checks, 0 alarms); 1 new LLM-wake since last tick (22:34Z cron canary, useful), total 474; 2 quiet canary-only ticks since (22:48Z, 23:03Z)."
+  "note": "Quiet tick: canary ok (boot verified=true, 532 drift checks, 0 alarms); no new LLM-wake since last status (last: 22:34Z, total 474); one quiet canary-only tick since (23:30Z, tier calm)."
 }
