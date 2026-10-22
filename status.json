@@ -1,8 +1,8 @@
 {
-  "ts": "2026-10-22T14:32:11Z",
-  "msk": "2026-10-22T17:32:11+03:00",
-  "canary": "ok",
-  "wake_last": "2026-10-22T04:32:24.900589+00:00",
+  "ts": "2026-10-22T15:50:57Z",
+  "msk": "2026-10-22T18:50:57+03:00",
+  "canary": "degraded",
+  "wake_last": "2026-10-22T15:31:42.354472+00:00",
   "wakes_total": 482,
   "site_last_build": "2026-10-22",
   "note": "RECOVERED from 13:25Z degraded (sandbox repair by owner unblocked execution layer). boot verified:true, 0 drift alarms, journal/ledger self-heal clean (glued 0). WAKE-TIER: no new LLM-wake (last 04:32Z exec:HEALTH-CANARY, calm tier) -> wakes_total unchanged (482). No soul findings."
