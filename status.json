@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-22T20:21:52Z",
- "msk": "2026-10-22T23:21:52+03:00",
+ "ts": "2026-10-22T21:26:05Z",
+ "msk": "2026-10-23T00:26:05+03:00",
  "canary": "ok",
- "wake_last": "2026-10-22T17:35:00.787184Z",
- "wakes_total": 484,
- "site_last_build": "2026-10-22",
+ "wake_last": "2026-10-22T20:37:16.725162Z",
+ "wakes_total": 485,
+ "site_last_build": "2026-10-23",
  "note": "ok since 17:25Z tick (recovered 18:20 MSK from SILENT SICK DAEMON incident; watchdog repaired stale heartbeat). boot verified:true, drift alarms 0. Stale-path det-canary residual RESOLVED: 17:35Z HEALTH-CANARY ok:true rc=0 (post-repair sandbox alive, shebangs fixed). wake_last=17:35Z LLM-wake counted 483->484."
 }
