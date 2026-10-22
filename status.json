@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-22T17:25:33Z",
-  "msk": "2026-10-22T20:25:33+03:00",
-  "canary": "ok",
-  "wake_last": "2026-10-22T14:32:31.183082Z",
-  "wakes_total": 483,
-  "site_last_build": "2026-10-22",
-  "note": "RECOVERED from 15:50Z degraded (watchdog repair of stale heartbeat: 18:20 tick died silently - SILENT SICK DAEMON). boot verified:true, 0 drift alarms. Counted LLM-wake 14:32:31Z missed by the dead tick -> wakes_total 482->483; wake_last restored to last LLM-wake (prev value was 15:31:42Z failed exec-canary, written by watchdog). Residual: wake det-canary fails rc=2 on stale /home/v/gigaagent path (cutover); 15:00/16:00 wake ticks missing from journal."
+ "ts": "2026-10-22T18:27:43Z",
+ "msk": "2026-10-22T21:27:43+03:00",
+ "canary": "ok",
+ "wake_last": "2026-10-22T17:35:00.787184Z",
+ "wakes_total": 484,
+ "site_last_build": "2026-10-22",
+ "note": "ok since 17:25Z tick (recovered 18:20 MSK from SILENT SICK DAEMON incident; watchdog repaired stale heartbeat). boot verified:true, drift alarms 0. Stale-path det-canary residual RESOLVED: 17:35Z HEALTH-CANARY ok:true rc=0 (post-repair sandbox alive, shebangs fixed). wake_last=17:35Z LLM-wake counted 483->484."
 }
