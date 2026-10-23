@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-23T01:22:20Z",
- "msk": "2026-10-23T04:22:20+03:00",
+ "ts": "2026-10-23T02:21:36Z",
+ "msk": "2026-10-23T05:21:36+03:00",
  "canary": "ok",
  "wake_last": "2026-10-22T20:37:16.725162Z",
  "wakes_total": 485,
  "site_last_build": "2026-10-23",
- "note": "ok since 17:25Z tick (recovered 18:20 MSK from SILENT SICK DAEMON incident; watchdog repaired stale heartbeat). boot verified:true, drift alarms 0. Stale-path det-canary residual RESOLVED: 17:35Z HEALTH-CANARY ok:true rc=0 (post-repair sandbox alive, shebangs fixed). wake_last=17:35Z LLM-wake counted 483->484. 03:22 MSK tick: quiet, no new LLM-wake (journal tail = evolve_resync/sentinel), canary ok. 04:20 MSK tick: quiet, boot verified:true drift 0, no new LLM-wake (journal tail = evolve_resync), canary ok."
+ "note": "ok since 17:25Z tick (recovered 18:20 MSK from SILENT SICK DAEMON incident; watchdog repaired stale heartbeat). boot verified:true, drift alarms 0. Stale-path det-canary residual RESOLVED: 17:35Z HEALTH-CANARY ok:true rc=0 (post-repair sandbox alive, shebangs fixed). wake_last=17:35Z LLM-wake counted 483->484. 03:22 MSK tick: quiet, no new LLM-wake (journal tail = evolve_resync/sentinel), canary ok. 04:20 MSK tick: quiet, boot verified:true drift 0, no new LLM-wake (journal tail = evolve_resync), canary ok. 05:20 MSK tick: quiet, boot verified:true drift 0, no new LLM-wake (journal tail = evolve_resync), canary ok."
 }
