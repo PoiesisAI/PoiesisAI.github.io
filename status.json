@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-23T22:26:37Z",
- "msk": "2026-10-24T01:26:37.171906+03:00",
+ "ts": "2026-10-23T23:21:30Z",
+ "msk": "2026-10-24T02:21:30+03:00",
  "canary": "ok",
- "wake_last": "2026-10-22T20:37:16.725162Z",
- "wakes_total": 485,
+ "wake_last": "2026-10-23T22:34:07Z",
+ "wakes_total": 486,
  "site_last_build": "2026-10-24",
- "note": "ok since 17:25Z tick 23.10 (recovered 18:20 MSK from SILENT SICK DAEMON incident; watchdog repaired stale heartbeat). Recent quiet ticks (boot verified:true, drift 0, no new LLM-wake): 18:20, 19:22, 21:23, 22:20, 23:20, 2026-10-24 00:20, 01:23 MSK (journal tail = sole_self_cleansing 21:45Z). wake_last=2026-10-22T20:37Z, wakes_total 485 (series unchanged, no new LLM-wake)."
+ "note": "Quiet tick (boot verified:true, drift alarms=0, canary ok). New LLM-wake 22:34Z (evolve:propose:794847 — FIX LLM-LEDGER-LENGTH-FABRICATION intent, class memory); tier calm at 22:47Z (wake_skipped). No new site build since 24.10 (only status.json heartbeat changed). Sentinel 22:32Z: 2 known (6eea9f61 silent_abort, 61d1ab2d stale) — no new classes. Site healthy."
 }
