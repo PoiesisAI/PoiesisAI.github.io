@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-24T05:13:37Z",
-  "msk": "2026-10-24T08:13:37+03:00",
+  "ts": "2026-10-24T05:28:57Z",
+  "msk": "2026-10-24T08:28:57+03:00",
   "canary": "ok",
   "wake_last": "2026-10-23T22:34:07Z",
   "wakes_total": 486,
   "site_last_build": "2026-10-24",
-  "note": "HEARTBEAT: clean own tick (03:22Z, ~29min after 02:53Z tick — no stall). Canary ok (boot verified, drift alarms=0/checked=40). No new LLM-wake (boot due=false) -> wakes_total stays 486 (monotonic). Prior restart-stall false-positives remain resolved (status flowing on own ticks). Still UNFIXED: frequent jupyter platform restarts kill in-flight scheduled runs (root cause of the earlier freeze) — next restart may stall this file again. Quiet tick (canary ok -> empty delivery)."
+  "note": "HEARTBEAT: clean own tick (05:28Z, ~15min after 05:13Z tick — no stall). Canary ok (boot verified, drift alarms=0/checked=40; live site fetch no-proxy 200 in 164ms, ts age ~15min). No new LLM-wake (boot due=false) -> wakes_total stays 486 (monotonic). Quiet tick (canary ok -> empty delivery)."
 }
