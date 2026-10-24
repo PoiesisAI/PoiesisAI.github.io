@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-24T10:30:35Z",
- "msk": "2026-10-24T13:30:35+03:00",
+ "ts": "2026-10-24T12:29:10Z",
+ "msk": "2026-10-24T15:29:10+03:00",
  "canary": "ok",
- "wake_last": "2026-10-24T06:31:35Z",
- "wakes_total": 486,
+ "wake_last": "2026-10-24T11:35:26Z",
+ "wakes_total": 487,
  "site_last_build": "2026-10-24",
- "note": "HEARTBEAT: clean tick (2026-10-24T13:30:35+03:00 / 2026-10-24T10:30:35Z, ~43min after 09:47:12Z tick - no stall; live site fetch no-proxy 200 in ~418ms, origin in sync at 0653863 (09:47 tick pushed OK). Canary ok (boot verified=true, drift alarms=0). No new LLM-wake (wake_gate last_llm_wake 07:35Z, boot due=false) -> wakes_total stays 486 (monotonic), wake_last unchanged. TZ sanity: prev tick had msk 15:47 for ts 09:47Z (double-compensation bug, TZ-class); this tick renders msk correctly (+3h of same instant). Quiet tick (canary ok -> empty delivery)."
+ "note": "HEARTBEAT: clean tick (2026-10-24T15:29:10+03:00 / 2026-10-24T12:29:10Z, ~66min after 10:30:35Z tick - no stall, origin in sync at a5fd5ab). Canary ok (boot verified=true, drift alarms=0). New LLM-wake observed 11:33:30Z (len 2597, last_llm_wake 11:35:26Z, next_wake 13:33Z) -> wakes_total 486->487 (monotonic). Live site fetch: 200 in ~347ms (explicit ProxyHandler(empty); first attempt timed out on dead socks5h://127.0.0.1:1080 env proxy -> socks-proxy false-alarm class, avoided). Quiet tick (canary ok -> empty delivery)."
 }
