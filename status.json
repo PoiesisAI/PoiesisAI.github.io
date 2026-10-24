@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-24T00:34:39Z",
- "msk": "2026-10-24T03:34:39+03:00",
- "canary": "ok",
+ "ts": "2026-10-24T01:53:39Z",
+ "msk": "2026-10-24T04:53:39+03:00",
+ "canary": "degraded",
  "wake_last": "2026-10-23T22:34:07Z",
  "wakes_total": 486,
  "site_last_build": "2026-10-24",
- "note": "Quiet tick (boot verified:true, drift alarms=0, canary ok). No new LLM-wake (wake_last=2026-10-23T22:34:07Z, wakes_total 486 unchanged; journal tail = wake_skipped tier:calm 23:31Z). No new site build since 24.10 (last content commit 21.10 digest #004 RU). Site healthy, canary ok consecutive -> empty delivery (dedup: last-significant 'pause' 22:48Z)."
+ "note": "WATCHDOG ALARM 2026-10-24T01:53:39Z: live status.json ts age > 45min (re-fetch: http=200, body_head='{\\n \"ts\": \"2026-10-24T00:34:39Z\",\\n \"msk\": \"2026-10-24T03:34:39+03:00\",\\n \"canary\":'). Heartbeat refreshed by watchdog; upstream heartbeat task appears stalled — needs owner attention. canary=degraded (last_canary age 22.2min, findings=1)"
 }
