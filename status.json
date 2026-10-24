@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-24T06:23:20Z",
-  "msk": "2026-10-24T09:23:20+03:00",
-  "canary": "ok",
-  "wake_last": "2026-10-23T22:34:07Z",
-  "wakes_total": 486,
-  "site_last_build": "2026-10-24",
-  "note": "HEARTBEAT: clean tick (06:22Z, ~53min after 05:28Z tick — no stall; live site fetch no-proxy 200 in 401ms, deployed ts matches local pre-push). Canary ok (boot verified=true, drift alarms=0/checked=40; repaired glued=0). No new LLM-wake (boot due=false) -> wakes_total stays 486 (monotonic). Quiet tick (canary ok -> empty delivery)."
+ "ts": "2026-10-24T08:04:00Z",
+ "msk": "2026-10-24T14:04:00+03:00",
+ "canary": "ok",
+ "wake_last": "2026-10-24T06:31:35Z",
+ "wakes_total": 486,
+ "site_last_build": "2026-10-24",
+ "note": "HEARTBEAT: clean tick (10:20 MSK / 07:20Z, ~59min after 06:23Z tick — no stall; live site fetch no-proxy 200 in 432ms, deployed ts 06:23:20Z matches local pre-push). Canary ok (boot verified=true, drift alarms=0). No new LLM-wake (boot due=false) -> wakes_total stays 486 (monotonic). Quiet tick (canary ok -> empty delivery)."
 }
