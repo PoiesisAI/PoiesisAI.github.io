@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-24T12:39:56Z",
- "msk": "2026-10-24T15:39:56+03:00",
+ "ts": "2026-10-24T13:23:10Z",
+ "msk": "2026-10-24T16:23:10+03:00",
  "canary": "ok",
  "wake_last": "2026-10-24T11:35:26Z",
  "wakes_total": 487,
  "site_last_build": "2026-10-24",
- "note": "HEARTBEAT: clean tick (2026-10-24T15:39:56+03:00 / 2026-10-24T12:39:56Z, ~11min after 12:29:10Z tick - no stall, origin in sync at 3361c85, ahead/behind 0/0). Canary ok (boot verified=true, drift alarms=0). No new LLM-wake (last 11:35:26Z; next due ~13:33Z, boot wake due=false, calm tier) -> wakes_total stays 487 (monotonic), wake_last unchanged. Live fetch 200 in ~382ms (explicit ProxyHandler(empty); env has dead socks5h://127.0.0.1:1080 -> socks-proxy false-alarm class, avoided). Quiet tick (canary ok -> empty delivery)."
+ "note": "HEARTBEAT: clean tick (2026-10-24T16:23:10+03:00 / 2026-10-24T13:23:10Z, ~43min after 12:39:56Z tick - no stall; origin in sync (local==origin HEAD 4cfd208, ahead/behind 0/0)). Canary ok (boot verified=true, drift alarms=0, live fetch 200 in 375ms, explicit empty ProxyHandler; dead socks5h://127.0.0.1:1080 in env avoided). No new LLM-wake since 11:35:26Z (journal tail = wake_skipped, tier calm; boot wake due=false) -> wake_last unchanged, wakes_total stays 487 (monotonic: counts LLM-wakes only, canary-tick не инкрементит). Site content unchanged since 22.10 freeze (last projects/site commit 04934c4) -> site_last_build stays 2026-10-24. Delivery-ledger prev=watchdog_alarm (12:59Z) -> canary ok = quiet, EMPTY delivery. Cleanup step 374a3da0 exit 0 (idempotent no-op: 0 stale, 8 fresh in-flight kept, 0 ghosts)."
 }
