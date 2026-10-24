@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-24T15:23:48Z",
- "msk": "2026-10-24T18:23:48+03:00",
+ "ts": "2026-10-24T17:21:20Z",
+ "msk": "2026-10-24T20:21:20+03:00",
  "canary": "ok",
  "wake_last": "2026-10-24T14:35:33Z",
  "wakes_total": 488,
  "site_last_build": "2026-10-24",
- "note": "HEARTBEAT: clean tick (2026-10-24T18:23:48+03:00 / 2026-10-24T15:23:48Z, ~49min after 14:33:35Z tick — no stall). Canary ok: soul_ops boot verified=true, drift alarms=0 (checked 80, none). NEW LLM-wake since prev tick: 14:35:33Z exec:HEALTH-CANARY (reason=cron, chars=4785, useful=true) -> wake_last=2026-10-24T14:35:33Z, wakes_total 487->488 (monotonic). Site content unchanged since 22.10 freeze (last projects/site commit 04934c4) -> site_last_build stays 2026-10-24. Delivery-ledger prev=watchdog_alarm (12:59Z) -> canary ok, no state change => quiet tick, EMPTY delivery. Step-0 cleanup 374a3da0 exit 0 (1 own-stale deleted lossless: backup+dump, 5 fresh in-flight kept, 0 ghosts)."
+ "note": "HEARTBEAT: clean tick (2026-10-24T20:21:20+03:00 / 2026-10-24T17:21:20Z, ~59min after 16:22:04Z tick — no stall). Canary ok: soul_ops boot verified=true, drift alarms=0 (checked 80, none). No new LLM-wake since prev tick (consciousness last_llm_wake unchanged 14:35:33Z) -> wake_last stays 2026-10-24T14:35:33Z, wakes_total stays 488 (monotonic, no double-count). Site unchanged since 22.10 freeze -> site_last_build stays 2026-10-24. Delivery: canary ok->ok, no state change => EMPTY tick (dedup; ledger stays watchdog_alarm 12:59Z, untouched). ANOMALY (non-alarm, honest report): prev tick 16:22:04Z was left uncommitted in working tree (its run aborted before commit+push; origin sat at 2c782bc = 15:23:48Z tick) -> its status.json state folded into this commit; origin in sync at 2c782bc before this push. Step-0 cleanup 374a3da0 exit 0 (1 own-stale deleted lossless: sqlite backup + full dump to thread-cleanup-20261024, 4 fresh in-flight kept, 0 ghosts, API 204 confirmed)."
 }
