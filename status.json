@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-24T02:53:08Z",
- "msk": "2026-10-24T05:53:08+03:00",
+ "ts": "2026-10-24T03:22:21Z",
+ "msk": "2026-10-24T06:22:21+03:00",
  "canary": "ok",
  "wake_last": "2026-10-23T22:34:07Z",
  "wakes_total": 486,
  "site_last_build": "2026-10-24",
- "note": "HEARTBEAT: clean own tick (delayed, 2026-10-24). Canary ok (boot verified, drift alarms=0). The watchdog alarms 01:48Z(canary=degraded)+02:08Z(refresh #2, canary=ok) were FALSE POSITIVES on a stalled status.json, not a real canary regression (my canary ok at every own tick; last finding=1 benign code_ratchet LOC=4410; brain_up). Root cause of the stall: jupyter platform restarts (server.log sig-15 at 00:09Z/01:39Z/04:49Z/05:17Z) killed in-flight scheduled runs, freezing status.json at 00:34Z; the watchdog read that freeze as 'stalled >45min' and alarmed. The stall is now BROKEN (file fresh again via watchdog refresh 02:08Z + my clean tick; no further alarms) BUT the root cause (restarts killing scheduled runs) is UNFIXED — my heartbeat may be killed again on the next restart. Ops: cleanup preflight false alarm (dead-socks HTTPS_PROXY env artifact; API :9090 live <1ms no-proxy) -> re-ran env-stripped exit 0 (no-op, backup taken). For owner: frequent jupyter restarts killing scheduled runs = the class to investigate."
+ "note": "HEARTBEAT: clean own tick (03:22Z, ~29min after 02:53Z tick — no stall). Canary ok (boot verified, drift alarms=0/checked=40). No new LLM-wake (boot due=false) -> wakes_total stays 486 (monotonic). Prior restart-stall false-positives remain resolved (status flowing on own ticks). Still UNFIXED: frequent jupyter platform restarts kill in-flight scheduled runs (root cause of the earlier freeze) — next restart may stall this file again. Quiet tick (canary ok -> empty delivery)."
 }
