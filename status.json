@@ -1,10 +1,10 @@
 {
- "ts": "2026-10-26T06:15:40Z",
- "msk": "2026-10-26T09:15:40+03:00",
+ "ts": "2026-10-27T04:30:59Z",
+ "msk": "2026-10-27T07:30:59+03:00",
  "canary": "ok",
- "wake_last": 1792985544.7056673,
+ "wake_last": 1793069208.6632562,
  "wakes_total": null,
  "site_last_build": "2026-10-24",
- "note": "daily check ok (manual tick 26.10 ~08:30 MSK; scheduler consolidation: heartbeat+watchdog+idle-worker → единая ежедневная проверка ad86cd4f; race исчерпан, single writer)",
- "prev_note": "WATCHDOG ALARM+REPAIR (tick 2026-10-26T05:41 MSK / 2026-10-26T02:41:00Z, tick-wall anchored per 21.10/25.10 precedent): live poiesisai.github.io/status.json ts 2026-10-25T21:47:00Z age ~294min > 45min (HTTP 200, no proxy), while git origin/main ALREADY 2026-10-26T01:41:00Z (HEAD 27bc189, local==remote, push path healthy) => GitHub Pages deployment/CDN lag again (6th consecutive night: 25.10 07:20, 26.10 00:47, 02:41, 03:44, 04:41, now 05:41; live frozen at 21:47Z since 00:47). Soul ALIVE & healthy: canary ok (last_canary ~9min, fresh <60min), brain_up=true, findings benign (scratchpad_overflow 13096B; code_ratchet LOC=4410), last_llm_wake 2026-10-25T15:32:45Z. Recovery one pass: RMW ts->2026-10-26T02:41:00Z, canary ok, prev note preserved, commit+push; sleep 100 + re-curl => see delivery ledger (watchdog_alarm/watchdog_failed) for recovered/failed. Prev class watchdog_failed @01:41:00Z age ~60min, dedup window EXPIRED => delivery mandatory. Probable cause: Pages deploy job not triggering for this repo (same deploy-lag class as 25.10 07:20 and 26.10 00:47/02:41/03:44/04:41)."
+ "note": "daily check ok (tick 27.10 07:30 MSK; single daily check ad86cd4f)",
+ "prev_note": "daily check ok (manual tick 26.10 ~08:30 MSK; scheduler consolidation: heartbeat+watchdog+idle-worker → единая ежедневная проверка ad86cd4f; race исчерпан, single writer)"
 }
