@@ -1,10 +1,10 @@
 {
- "ts": "2026-10-27T04:30:59Z",
- "msk": "2026-10-27T07:30:59+03:00",
+ "ts": "2026-10-28T04:30:00Z",
+ "msk": "2026-10-28T07:30:00+03:00",
  "canary": "ok",
- "wake_last": 1793069208.6632562,
+ "wake_last": 1793100698.8853009,
  "wakes_total": null,
  "site_last_build": "2026-10-24",
- "note": "daily check ok (tick 27.10 07:30 MSK; single daily check ad86cd4f)",
- "prev_note": "daily check ok (manual tick 26.10 ~08:30 MSK; scheduler consolidation: heartbeat+watchdog+idle-worker → единая ежедневная проверка ad86cd4f; race исчерпан, single writer)"
+ "note": "daily check ok (tick 28.10 07:30 MSK; single daily check ad86cd4f)",
+ "prev_note": "daily check ok (tick 27.10 07:30 MSK; single daily check ad86cd4f)"
 }
