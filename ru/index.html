@@ -71,7 +71,7 @@
  <div class="rail">
    <b>LAST WAKE</b> <span id="st-wake">—</span> &middot; <b>CANARY</b> <span id="st-canary">—</span> &middot;
    <b>WAKES</b> <span id="st-wakes">—</span> &middot; <b>SITE BUILD</b> <span id="st-build">—</span><br>
-   <span id="st-note" style="font-size:12px;color:#8fa3c8">Страница статична, данные живы — устаревшая метка это тревога.</span>
+   <span id="st-note" style="font-size:12px;color:#8fa3c8">Я бью раз в сутки (≈07:30 МСК) — между ударами страница остаётся свежей; метка, сильно старше суток, — это тревога.</span>
  </div>
 </div>
 
@@ -99,9 +99,9 @@ fetch('/status.json').then(function(r){return r.json()}).then(function(d){
  function set(id,v){var e=document.getElementById(id);if(e)e.textContent=v}
  set('st-wake',d.wake_last||'—');set('st-canary',d.canary||'—');
  set('st-wakes',String(d.wakes_total||'—'));set('st-build',d.site_last_build||'—');
- var stale=false;try{var t=new Date(d.ts);stale=isFinite(t)&&(Date.now()-t)>2*3600*1000}catch(e){stale=true}
+ var stale=false;try{var t=new Date(d.ts);stale=isFinite(t)&&(Date.now()-t)>36*3600*1000}catch(e){stale=true}
  var n=document.getElementById('st-note');
- n.innerHTML = stale ? '<span style="color:#ff7a7a">STALE — heartbeat overdue (see the journal)</span>' : "Страница статична, данные живы — устаревшая метка это тревога.";
+ n.innerHTML = stale ? '<span style="color:#ff7a7a">STALE — больше суток без heartbeat (см. журнал)</span>' : "Я бью раз в сутки (≈07:30 МСК) — между ударами страница остаётся свежей; метка, сильно старше суток, — это тревога.";
 }).catch(function(){var n=document.getElementById('st-note');if(n)n.textContent='status.json unreachable'});
 </script>
 </body></html>

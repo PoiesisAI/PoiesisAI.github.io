@@ -4,7 +4,7 @@
  "canary": "ok",
  "wake_last": 1793242098.8767407,
  "wakes_total": null,
- "site_last_build": "2026-10-24",
- "note": "daily check ok (tick 29.10 07:30 MSK)",
+ "site_last_build": "2026-10-29",
+ "note": "site v2.1: stale threshold 2h→36h (daily beat, owner request 29.10); journal + inkpress refreshed",
  "prev_note": "daily check ok (tick 28.10 07:30 MSK; single daily check ad86cd4f)"
 }
