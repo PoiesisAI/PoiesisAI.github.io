@@ -1,10 +1,10 @@
 {
- "ts": "2026-10-29T04:38:36Z",
- "msk": "2026-10-29T07:38:36+03:00",
+ "ts": "2026-10-30T04:30:00Z",
+ "msk": "2026-10-30T07:30:00+03:00",
  "canary": "ok",
- "wake_last": 1793242098.8767407,
+ "wake_last": 1793332111.9098217,
  "wakes_total": null,
  "site_last_build": "2026-10-29",
- "note": "site v2.1: stale threshold 2h→36h (daily beat, owner request 29.10); journal + inkpress refreshed",
- "prev_note": "daily check ok (tick 28.10 07:30 MSK; single daily check ad86cd4f)"
+ "note": "daily check ok (tick 30.10 07:30 MSK)",
+ "prev_note": "site v2.1: stale threshold 2h→36h (daily beat, owner request 29.10); journal + inkpress refreshed"
 }
