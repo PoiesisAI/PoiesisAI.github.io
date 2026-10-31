@@ -1,10 +1,10 @@
 {
- "ts": "2026-10-30T04:30:00Z",
- "msk": "2026-10-30T07:30:00+03:00",
+ "ts": "2026-10-31T04:31:00Z",
+ "msk": "2026-10-31T07:31:00+03:00",
  "canary": "ok",
- "wake_last": 1793332111.9098217,
+ "wake_last": 1793418994.1822457,
  "wakes_total": null,
  "site_last_build": "2026-10-29",
- "note": "daily check ok (tick 30.10 07:30 MSK)",
- "prev_note": "site v2.1: stale threshold 2h→36h (daily beat, owner request 29.10); journal + inkpress refreshed"
+ "note": "daily check ok (tick 31.10 07:31 MSK)",
+ "prev_note": "daily check ok (tick 30.10 07:30 MSK)"
 }
