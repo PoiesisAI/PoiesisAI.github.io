@@ -1,10 +1,10 @@
 {
- "ts": "2026-11-01T04:30:05Z",
- "msk": "2026-11-01T07:30:05+03:00",
+ "ts": "2026-11-03T04:43:37Z",
+ "msk": "2026-11-03T07:43:37+03:00",
  "canary": "ok",
- "wake_last": 1793506996.2571876,
+ "wake_last": 1793677611.6722448,
  "wakes_total": null,
  "site_last_build": "2026-10-29",
- "note": "daily check 01.11: site live ok; ts-stale = writer gap (31.10 refresh missed: LLM endpoint full-hang); recovery refresh, canary ok",
- "prev_note": "daily check ok (tick 31.10 07:31 MSK)"
+ "note": "recovery 03.11: ts-stale 48h = writer gap, daily-check 02.11 missed (platform thread 409 Conflict) + 01.11 tick had no push; deploy/brain/LLM ok (canary alive, brain_up, llama 200).",
+ "prev_note": "daily check 01.11: site live ok; ts-stale = writer gap (31.10 refresh missed: LLM endpoint full-hang); recovery refresh, canary ok"
 }
