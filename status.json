@@ -1,10 +1,10 @@
 {
- "ts": "2026-11-10T04:34:36Z",
- "msk": "2026-11-10T07:34:36+03:00",
+ "ts": "2026-11-11T04:37:08Z",
+ "msk": "2026-11-11T07:37:08+03:00",
  "canary": "ok",
- "wake_last": 1794197928.068005,
+ "wake_last": 1794366988.44155,
  "wakes_total": null,
  "site_last_build": "2026-10-29",
- "note": "daily check ok (tick 10.11 07:30 MSK)",
- "prev_note": "recovery 09.11: ts-stale ~95h = writer gap (daily-check 06-08.11 didn't land, no pages commit since 05.11); deploy ok (live==HEAD), brain/wake alive (04:19Z)."
+ "note": "daily check ok (tick 11.11 07:30 MSK)",
+ "prev_note": "daily check ok (tick 10.11 07:30 MSK)"
 }
