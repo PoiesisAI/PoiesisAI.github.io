@@ -1,10 +1,10 @@
 {
- "ts": "2026-11-17T04:37:08Z",
- "msk": "2026-11-17T07:37:08+03:00",
- "canary": "ok",
+ "ts": "2026-11-19T04:44:46Z",
+ "msk": "2026-11-19T07:44:46+03:00",
+ "canary": "degraded",
  "wake_last": 1794810011.6945896,
  "wakes_total": null,
  "site_last_build": "2026-10-29",
- "note": "daily check ok (tick 17.11 07:30 MSK)",
- "prev_note": "daily check ok (tick 16.11 07:30 MSK)"
+ "note": "degraded: tick 18.11 умер молча (пустой финал, refresh не дописан); brain/scheduler/deploy живы; recovery 19.11 07:45 MSK",
+ "prev_note": "daily check ok (tick 17.11 07:30 MSK)"
 }
