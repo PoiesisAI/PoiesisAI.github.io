@@ -1,10 +1,10 @@
 {
- "ts": "2026-11-23T04:31:53Z",
- "msk": "2026-11-23T07:31:53+03:00",
+ "ts": "2026-11-24T04:31:43Z",
+ "msk": "2026-11-24T07:31:43+03:00",
  "canary": "ok",
- "wake_last": 1795402944.0335355,
+ "wake_last": 1795489301.2022736,
  "wakes_total": null,
  "site_last_build": "2026-10-29",
- "note": "daily check ok (tick 23.11 07:30 MSK)",
- "prev_note": "daily check ok (tick 22.11 07:30 MSK)"
+ "note": "daily check ok (tick 24.11 07:30 MSK)",
+ "prev_note": "daily check ok (tick 23.11 07:30 MSK)"
 }
